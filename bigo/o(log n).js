@@ -1,0 +1,1 @@
+// o(log n) time complexity refers to an alogo runtime that grows logarithmically with the size of the input (represented by n). In simpler terms, as the input size increase, the time it takes for the algo to run increases slowly
