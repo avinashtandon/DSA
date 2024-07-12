@@ -27,7 +27,7 @@ class MyArry {
 //Conclusion
 //Using the loop to shift elements is essential to maintain the correct array structure. It ensures that after removing the first element, all subsequent elements are properly moved one position to the left, preserving the array's integrity.//
         for(let i=0; i<this.length -1; i++){
-            this.data[i] = this.data[i++]
+            this.data[i] = this.data[i++] // Shift each element one position to the left
         }
         delete this.data[this.length -1]; // Delete the last element
         this.length--; // Decreases the 'length' of the array
