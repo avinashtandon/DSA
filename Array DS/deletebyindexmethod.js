@@ -28,5 +28,5 @@ mynewarry.push("mangoes");
 mynewarry.push("trees");
 
 console.log(mynewarry);
-console.log(mynewarry.deletebyindex(4));
+console.log(mynewarry.deletebyindex(2));
 console.log(mynewarry);
