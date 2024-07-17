@@ -11,8 +11,8 @@ class MyArry {
     }
     deletebyindex(index){
         const ele = this.data[index]; // Retrieves the element located at the specified index in the data object.
-        for(let i=0; i<this.length-1; i++){
-            this.data[i] = this.data[i++]
+        for(let i=index; i<this.length-1; i++){
+            this.data[i] = this.data[i+1]
         }
         delete this.data[this.length-1];
         this.length--;
